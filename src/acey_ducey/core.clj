@@ -44,9 +44,10 @@
 
 (defn -main
   [& args]
-  (println "WELCOME TO THE WORLD OF TOMORROW!!!")
-  (println "THIS IS ACEY DUCEY, A GAME FROM THE FUTURE")
-  (println "THAT YOU CAN START PLAYING NOW!!!")
+  (println "THIS IS ACEY DUCEY, A GAME OF BETTING")
+  (println "I'M GOING TO GET TWO RANDOM NUMBERS")
+  (println "AND YOU HAVE TO BET IF THE NEXT RANDOM NUMBER")
+  (println "WILL BE BETWEEN THOSE TWO NUMBERS, THAT'S IT!")
   (println)
   (let [money 100]
     (start money)))

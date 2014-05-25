@@ -1,8 +1,8 @@
 (defproject acey-ducey "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
-  :url "http://example.com/FIXME"
-  :license {:name "Eclipse Public License"
-            :url "http://www.eclipse.org/legal/epl-v10.html"}
+  :description "Worst betting game ever"
+  :url "http://github.com/acey-ducey"
+  :license {:name "None"
+            :url "/dev/null"}
   :dependencies [[org.clojure/clojure "1.5.1"]]
   :main ^:skip-aot acey-ducey.core
   :target-path "target/%s"
